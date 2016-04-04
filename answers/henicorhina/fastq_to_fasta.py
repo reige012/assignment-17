@@ -45,9 +45,14 @@ def seq_converter(args):
     with open(args.in_file, 'r') as infile:
         with open(args.out_file, 'w') as outfile:
             for record in SeqIO.parse(infile, 'fastq'):
-                # record = record.reverse_complement()
-                # SeqIO.write(record.reverse_complement(), outfile, 'fasta')
-                outfile.write(record.reverse_complement().format('fasta'))
+                # create new SeqRecord object with reverse complement
+                # but retain original id, name, and description
+                rc_record = record.reverse_complement(id=record.id+"_rc",
+                                                      name=record.name,
+                                                      description=record.description)
+                # print(rc_record)
+                SeqIO.write(rc_record, outfile, 'fasta')
+                # outfile.write(rc_record.format('fasta'))  # also works
 
 
 def main():
