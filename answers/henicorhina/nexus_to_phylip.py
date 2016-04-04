@@ -51,6 +51,7 @@ def file_converter(my_files):
 
 def main():
     args = get_args()
+    os.chdir(args.out_dir)
     files = glob.glob(os.path.join(args.in_dir, '*.nexus'))
     file_converter(files)
 
