@@ -32,6 +32,7 @@ def parser():
 def file_conversion(in_filename, out_filename):
     os.chdir("/Users/Andre/Documents/aa_LSU_Files/3_Spring_2016/Comp_Prog_for_Biologists/assignment-17/task1-files")
     with open(in_filename + ".fastq", "r") as infile:
+        os.chdir("/Users/Andre/Documents/aa_LSU_Files/3_Spring_2016/Comp_Prog_for_Biologists/assignment-17/answers/AndreMonc/task1_output")
         with open(out_filename + ".fasta", "w") as outfile:
             for record in SeqIO.parse(infile, "fastq"):
                 record.seq.reverse_complement()
