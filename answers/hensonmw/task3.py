@@ -40,7 +40,11 @@ def enzymes(read):
         z = x.with_N_sites(1)
         length = {key: len(value) for key, value in z.items()}
         sort_1cut = sorted(length.items(), key=itemgetter(1))
-        print("\nThese enzmes cut {} the fewest(1 cut):\n{}".format(record.id, sort_1cut))
+        zero = x.without_site()
+        length_zero = {str(key): len(value) for key, value in zero.items()}
+        sort_0cut = sorted(length_zero.items(), key=itemgetter(1))
+        print("\nThese enzmes cut {} the fewest(>=1):\n{}\n{}".format(record.id, sort_1cut,
+        sort_0cut))
 
 
 def main():
