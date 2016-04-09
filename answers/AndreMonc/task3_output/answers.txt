@@ -1,0 +1,61 @@
+All possible restriction enzymes from New England Biolabs that cut the chicken
+mtDNA sequence:
+
+AlwI			MlyI			MslI			NheI			FspEI
+Eco53kI			EcoO109I		BsmI			BstUI			ApoI
+BssSI			BseRI			Hpy99I			TfiI			SapI
+BspHI			BsaXI			AvaII			BspDI			BsaAI
+Acc65I			BsaHI			BfuAI			ApaI			PacI
+BslI			BbvCI			StyI			AleI			BspQI
+BpuEI			NlaIII			PaeR7I			AgeI			XbaI
+BsiEI			MfeI			BciVI			BpmI			CviKI_1
+EarI			HpaII			AvaI			BstNI			Bsu36I
+BsmAI			BsrGI			BbsI			NmeAIII			EaeI
+AclI			AflII			BspMI			CviAII			BsmBI
+SspI			MspI			TspRI			AflIII			ZraI
+AatII			PspOMI			PleI			BstBI			DdeI
+EciI			DpnI			TaqI			XmnI			DraI
+KpnI			ScrFI			PvuII			XcmI			BstYI
+Hpy166II		AvrII			SfoI			AbaSI			EagI
+HaeII			NgoMIV			BglI			AlwNI			BsoBI
+PciI			BcgI			Bpu10I			NarI			RsaI
+Sau3AI			HgaI			AciI			HpyAV			ApaLI
+XhoI			SfaNI			BssKI			MboII			SacII
+SalI			BanII			BsaI			BaeGI			MscI
+Tth111I			HindIII			SacI			PluTI			AfeI
+NsiI			MwoI			BtsIMutI		StuI			EcoRV
+FauI			HaeIII			ScaI			NlaIV			Cac8I
+FokI			SpeI			MnlI			SfcI			SfiI
+HpaI			AseI			PspGI			SmlI			BsgI
+ApeKI			BstAPI			MseI			BtsCI			HpyCH4V
+BsrI			BaeI			BsaWI			BstEII			HincII
+Bsp1286I		AccI			BfuCI			BfaI			SnaBI
+BsiHKAI			PflFI			NdeI			BsiWI			BtsI
+HinfI			ClaI			BseYI			PsiI			BsmFI
+AcuI			Fnu4HI			NaeI			MboI			Hpy188III
+BccI			HhaI			DpnII			StyD4I			CspCI
+BspCNI			CviQI			NciI			LpnPI			BceAI
+BsaBI			SphI			BclI			BsrBI			TseI
+Sau96I			Hpy188I			BcoDI			PpuMI			BtgZI
+BmtI			BtgI			HpyCH4IV		BsrDI			BstZ17I
+MmeI			Tsp45I			NcoI			MspA1I			BanI
+BmrI			BamHI			BsaJI			BbvI			HinP1I
+HphI			EcoRI			BspEI			KasI			NspI
+BsrFI			MspJI			AluI			EcoNI			HpyCH4III
+FatI			MluCI			
+
+The number of restriction enzymes from New England Biolabs that cut the chicken mtDNA
+sequence:
+207
+
+The name of the enzymes cutting the chicken mtDNA sequence in the fewest places and 
+associated number of cuts:
+AfeI:	1		AleI:	1		EcoRV:	1		BsiWI:	1		SfoI:	1
+SnaBI:	1		ApaLI:	1		ZraI:	1		KasI:	1		AlwNI:	1
+ClaI:	1		AatII:	1		BspDI:	1		EagI:	1		SfiI:	1
+XbaI:	1		PluTI:	1		PacI:	1		SphI:	1		BbvCI:	1
+AgeI:	1		NarI:	1		
+
+The name of the enzymes cutting the chicken mtDNA sequence in the most places and
+associated number of cuts:
+AbaSI:	7710
